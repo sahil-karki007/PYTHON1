@@ -1,0 +1,76 @@
+What is VARIABLE ?
+
+A variable is like a container (storage box) in programming or mathematics that holds some value. You can put a value inside it, use it, and even change it later.
+
+🔹 In Simple Terms:
+Variable = Name that stores data.
+Example in real life:
+If you write your friend’s phone number in your contacts under the name “Rahul”, then Rahul is like a variable and the phone number is the value.
+
+🔹 In Programming:
+A variable has:
+Name → identifier (like x, age, username)
+Value → data stored inside (like 10, "Sahil", True)
+Data type → what kind of data it holds (number, text, boolean, etc.)
+
+
+
+What is SYNTAX?
+
+Syntax means the rules and structure of how we write code in a programming language (just like grammar in English).
+In English:
+Correct: “I am learning Python.”
+Incorrect: “Learning am I Python.”
+
+In Programming:
+Correct:
+print("Hello")
+Incorrect (syntax error):
+print "Hello"
+
+So, syntax defines how code must be written so that the computer can understand it.
+
+
+
+What are DATA TYPES?
+
+Data Types define the kind of data a variable can hold.
+They tell the computer whether the value is a number, text, true/false, list, etc.
+
+🔹 Python Basic Data Types
+
+Data Type	Example	Description
+int	age = 22	Whole numbers (positive/negative)
+float	height = 5.9	Decimal numbers
+str	name = "Sahil"	Text (string of characters)
+bool	is_student = True	True or False values
+list	fruits = ["apple", "mango"]	Ordered collection, can store multiple values
+tuple	point = (4, 5)	Like list, but immutable (can’t change values)
+set	nums = {1, 2, 3}	Unordered collection, unique values only
+dict	student = {"name":"Sahil", "age":22}	Key-value pairs
+
+Checking Data Type
+In Python you can check with type():
+print(type(name))       # <class 'str'>
+print(type(y))          # <class 'float'>
+print(type(person))     # <class 'dict'>
+
+
+
+
+What is an Operators?
+
+An operator is a symbol that performs an action on values or variables (called operands).
+👉 Example: +, -, *, /, ==, and, etc.
+
+If variables are boxes of data, then operators are the tools that let you work with them.
+
+🔹 Types of Operators in Python
+Type	Operators	Example	Result
+Arithmetic	+ - * / % // **	5 + 2	7
+Comparison (Relational)	== != > < >= <=	5 > 3	True
+Assignment	= += -= *= /= %= //= **=	x = 5; x += 2	x = 7
+Logical	and or not	(5 > 3 and 2 < 4)	True
+Bitwise	`&	^ ~ << >>`	5 & 3
+Membership	in not in	"a" in "apple"	True
+Identity	is is not	x is y	False (if not same object)
